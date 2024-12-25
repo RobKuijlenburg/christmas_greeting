@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
         text2.style.opacity = 1;
         setTimeout(() => {
             text1.style.display = 'none';
-        }, 1500); // Ensure text1 is hidden after fade out
+        }, 1300); // Ensure text1 is hidden after fade out
     }, 2200);
     setTimeout(() => {
         text2.style.animation = 'fadeOut 1.5s forwards';
