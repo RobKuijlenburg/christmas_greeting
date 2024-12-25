@@ -13,14 +13,14 @@ body {
     overflow-x: hidden;
     min-height: 100vh; 
     overflow-y: hidden;
-    color: white;
+    color: white !important;
 }
 
 .snowflake {
     position: absolute;
     width: 10px;
     height: 10px;
-    background: white;
+    background: white !important;
     border-radius: 50%;
     filter: drop-shadow(0 0 10px white);
 }
@@ -58,6 +58,7 @@ body {
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 1.5s ease-in-out;
+    color: white !important;
 }
 
 .text1 {
