@@ -87,16 +87,25 @@ document.addEventListener('DOMContentLoaded', () => {
         text1.style.animation = 'fadeOut 1.5s forwards';
         text2.style.animation = 'fadeIn 1.5s forwards';
         text2.style.opacity = 1;
+        setTimeout(() => {
+            text1.style.display = 'none';
+        }, 1500); // Ensure text1 is hidden after fade out
     }, 2200);
     setTimeout(() => {
         text2.style.animation = 'fadeOut 1.5s forwards';
         text3.style.animation = 'fadeIn 1.5s forwards';
         text3.style.opacity = 1;
+        setTimeout(() => {
+            text2.style.display = 'none';
+        }, 1500); // Ensure text2 is hidden after fade out
     }, 5200);
     setTimeout(() => {
         text3.style.animation = 'fadeOut 1.5s forwards';
         text4.style.animation = 'fadeIn 1.5s forwards';
         text4.style.opacity = 1;
+        setTimeout(() => {
+            text3.style.display = 'none';
+        }, 1500); // Ensure text3 is hidden after fade out
     }, 8200);
 
     const fab = document.querySelector('.fab');
