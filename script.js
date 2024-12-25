@@ -84,18 +84,18 @@ document.addEventListener('DOMContentLoaded', () => {
         text1.style.opacity = 1;
     }, 300);
     setTimeout(() => {
-        text1.style.animation = 'fadeOut 1s forwards';
-        text2.style.animation = 'fadeIn 3s forwards';
+        text1.style.animation = 'fadeOut 1.5s forwards';
+        text2.style.animation = 'fadeIn 1.5s forwards';
         text2.style.opacity = 1;
     }, 2200);
     setTimeout(() => {
-        text2.style.animation = 'fadeOut 1s forwards';
-        text3.style.animation = 'fadeIn 3s forwards';
+        text2.style.animation = 'fadeOut 1.5s forwards';
+        text3.style.animation = 'fadeIn 1.5s forwards';
         text3.style.opacity = 1;
     }, 5200);
     setTimeout(() => {
-        text3.style.animation = 'fadeOut 1s forwards';
-        text4.style.animation = 'fadeIn 3s forwards';
+        text3.style.animation = 'fadeOut 1.5s forwards';
+        text4.style.animation = 'fadeIn 1.5s forwards';
         text4.style.opacity = 1;
     }, 8200);
 

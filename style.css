@@ -9,11 +9,9 @@ body {
 }
 
 body {
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%) !important;
     overflow-x: hidden;
     min-height: 100vh; 
-    /* If you want to change the site height you can remove overflow-y */
-    /* pure-snow will automatically detect height of body tag */
     overflow-y: hidden;
     color: white;
 }
@@ -55,11 +53,11 @@ body {
 
 .overlap-text span {
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0;
-    transition: opacity 2s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
 }
 
 .text1 {
